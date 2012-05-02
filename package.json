@@ -1,0 +1,10 @@
+{
+    "name":"jsDelaunay",
+    "version":"0.0.1",
+
+    "main": "./index",
+    
+    "devDependencies":{
+        "mocha":">= 1.0.2"
+    }
+}

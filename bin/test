@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+
+var path = require('path'),
+    mocha = path.join( 'mocha', 'bin', 'mocha' );
+
+// set environment to test if not already set
+if( !process.env.NODE_ENV ) process.env.NODE_ENV = 'test';
+
+require(mocha);
